@@ -16,6 +16,11 @@
   <depend>rmf_task</depend>
   <depend>nlohmann-json-dev</depend>
   <depend>nlohmann_json_schema_validator_vendor</depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  
+  <build_depend>uuid</build_depend>
+  <exec_depend>uuid</exec_depend>
 
   <test_depend>ament_cmake_catch2</test_depend>
   <test_depend>ament_cmake_uncrustify</test_depend>
